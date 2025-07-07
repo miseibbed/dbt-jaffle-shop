@@ -1,12 +1,11 @@
 config-version: 2
 
 name: "jaffle_shop" 
-# --only letters and underscores are allowed here
 version: "3.0.0"
 require-dbt-version: ">=1.5.0"
 
 dbt-cloud:
-  project-id: 275557 # Put your project id here
+  project-id: 437655 # Put your project id here
 
 profile: default # Put your profile here
 
@@ -37,4 +36,3 @@ models:
       +materialized: view
     marts:
       +materialized: table
-      # -- anything in the marts folder is materialized as a table
